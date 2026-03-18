@@ -7,9 +7,6 @@
         <a href="index.html">
           <img src="img/RRC Long logo.png" alt="RR Computers Logo">
         </a>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rem necessitatibus, ratione laborum est corrupti recusandae, sed animi nobis dicta, illum at odio incidunt officia illo suscipit molestias facilis iure.
-</p>
       </div>
 
       <!-- Hamburger -->
