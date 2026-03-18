@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-der class="navbar">
+<header class="navbar">
       <div class="nav-container">
         <!-- Logo -->
         <div class="logo">
