@@ -267,19 +267,22 @@
           Enter your contact details to schedule a Meeting.
         </p>
        <!-- Complain box -->
-        <form class="custom-form" id="sing_up" >
-          <div class="hero-5-input">
-            <input type="text" placeholder="Your name" required id="yourname">
-            <small class="error"></small>
-          </div>
+        <form class="custom-form">
+  <div class="hero-5-input">
+    <input type="text" name="name" placeholder="Your name" required>
+    <small class="error"></small>
+  </div>
 
-          <div class="hero-5-input">
-            <input type="tel" placeholder="Your phone" required id="yourphone">
-            <small class="error"></small>
-          </div>
+  <div class="hero-5-input">
+    <input type="tel" name="phone" placeholder="Your phone" required>
+    <small class="error"></small>
+  </div>
 
-          <button type="submit">Complain Ticket</button>
-        </form>
+  <input type="hidden" name="type" value="complaint">
+
+  <button type="submit">Complaint Ticket</button>
+
+</form>
         <!-- Checkbox inline with text -->
         <label class="hero-5-checkbox">
           <input type="checkbox" required>
@@ -351,93 +354,4 @@
       © 2026 RR COMPUTERS.
     </div>
   </footer>
-
-  <!-- script 1-->
-  <script>
-    function toggleMenu() {
-      document.getElementById("navMenu").classList.toggle("show");
-    }
-  </script>
-  <!-- script 2-->
-  <script>
-    document.getElementById("enquiryForm").addEventListener("submit", function (e) {
-      e.preventDefault();
-
-      const name = document.getElementById("name").value.trim();
-      const phone = document.getElementById("phone").value.trim();
-
-      const nameError = document.getElementById("nameError");
-      const phoneError = document.getElementById("phoneError");
-      const successMsg = document.getElementById("successMsg");
-
-      nameError.textContent = "";
-      phoneError.textContent = "";
-      successMsg.textContent = "";
-
-      let isValid = true;
-
-      // Name validation
-      if (name.length < 3) {
-        nameError.textContent = "Please enter a valid name";
-        isValid = false;
-      }
-
-      // Phone validation (India-friendly)
-      if (!/^[6-9]\d{9}$/.test(phone)) {
-        phoneError.textContent = "Enter a valid 10-digit phone number";
-        isValid = false;
-      }
-
-      if (isValid) {
-        // Simulated submit (replace with backend later)
-        successMsg.textContent = "Your request has been submitted successfully!";
-
-        // Reset form
-        document.getElementById("enquiryForm").reset();
-      }
-    });
-  </script>
-  <!-- singup form -->
-     <!-- complain script  -->
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-
-      const form = document.getElementById("sing_up");
-      const nameInput = document.getElementById("yourname");
-      const phoneInput = document.getElementById("yourphone");
-
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        let isValid = true;
-
-        // Clear previous errors
-        document.querySelectorAll(".error").forEach(err => err.textContent = "");
-
-        // Name validation
-        if (nameInput.value.trim().length < 3) {
-          showError(nameInput, "Name must be at least 3 characters");
-          isValid = false;
-        }
-
-        // Phone validation (Indian mobile)
-        const phonePattern = /^[6-9]\d{9}$/;
-        if (!phonePattern.test(phoneInput.value.trim())) {
-          showError(phoneInput, "Enter a valid 10-digit mobile number");
-          isValid = false;
-        }
-
-        // Submit if valid
-        if (isValid) {
-          form.submit(); // or replace with AJAX later
-        }
-      });
-
-      function showError(input, message) {
-        const error = input.parentElement.querySelector(".error");
-        error.textContent = message;
-      }
-
-    });
-  </script>
    <?php get_footer(); ?>

@@ -983,7 +983,7 @@ margin-top: -100px;
 }
 
 /* Form */
-.contact-1-form form {
+.custom-form form {
   background-color: #ffffff;
 }
 
@@ -1008,7 +1008,7 @@ margin-top: -100px;
 }
 
 /* Button */
-.contact-1-form button {
+.custom-form button {
   background-color: #fde6a7;
   color: #000;
   border: none;

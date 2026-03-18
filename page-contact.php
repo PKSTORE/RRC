@@ -83,7 +83,7 @@
       </div>
 
       <!-- Right Form -->
-      <div class="contact-1-form">
+      <div class="custom-form">
         <form>
           <div class="form-group">
             <input type="text" placeholder="Your name" required>
