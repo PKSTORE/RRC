@@ -354,4 +354,10 @@
       © 2026 RR COMPUTERS.
     </div>
   </footer>
+    <!-- script 1-->
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("show");
+    }
+  </script>
    <?php get_footer(); ?>
