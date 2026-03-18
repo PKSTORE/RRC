@@ -4,9 +4,9 @@
 
       <!-- Logo -->
       <div class="logo">
-        <a href="index.html">
-          <img src="img/RRC Long logo.png" alt="RR Computers Logo">
-        </a>
+       <a href="<?php echo home_url('/'); ?>">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.png" alt="Logo">
+      </a>
       </div>
 
       <!-- Hamburger -->
