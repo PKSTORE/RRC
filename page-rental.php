@@ -3,21 +3,21 @@ der class="navbar">
       <div class="nav-container">
         <!-- Logo -->
         <div class="logo">
-          <a href="index.html">
-            <img src="img/RRC Long logo.png" alt="" />
-          </a>
-        </div>
+                <a href="<?php echo site_url('/'); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.png">
+                </a>
+            </div>
 
         <!-- Hamburger -->
         <div class="hamburger" onclick="toggleMenu()">☰</div>
 
         <!-- Menu -->
         <nav class="menu" id="navMenu">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="services.html">Services</a>
-          <a href="Contact.html">Contact Us</a>
-          <a href="rental.html">Rental</a>
+           <a href="<?php echo site_url('/'); ?>">Home</a>
+    <a href="<?php echo site_url('/about'); ?>">About</a>
+    <a href="<?php echo site_url('/services'); ?>">Services</a>
+    <a href="<?php echo site_url('/contact'); ?>">Contact</a>
+    <a href="<?php echo site_url('/rental'); ?>">Rental</a>
           <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
         </nav>
 
@@ -30,7 +30,7 @@ der class="navbar">
     <!-- rental 1-->
     <div class="cards">
       <div class="card">
-        <img src="https://via.placeholder.com/400x250" alt="Laptop" />
+        <img src="<?php echo get_template_directory_uri(); ?>/img/akshita-vault-1.png">
 
         ```
         <div class="card-body">
@@ -42,7 +42,7 @@ der class="navbar">
 
           <div class="card-bottom">
             <span class="price">₹1499/day</span>
-          <a href="index.html"><button class="btn">Rent Now</button></a>  
+          <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>  
           </div>
         </div>
         ```
@@ -59,7 +59,7 @@ der class="navbar">
 
           <div class="card-bottom">
             <span class="price">₹899/day</span>
-            <button class="btn">Rent Now</button>
+            <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
         ```
@@ -76,7 +76,7 @@ der class="navbar">
 
           <div class="card-bottom">
             <span class="price">₹499/day</span>
-            <button class="btn">Rent Now</button>
+            <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ der class="navbar">
 
           <div class="card-bottom">
             <span class="price">₹499/day</span>
-            <button class="btn">Rent Now</button>
+            <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
       </div>
@@ -106,52 +106,7 @@ der class="navbar">
 
           <div class="card-bottom">
             <span class="price">₹499/day</span>
-            <button class="btn">Rent Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" />
-
-        ```
-        <div class="card-body">
-          <h3>Basic Laptop</h3>
-
-          <p class="specs">i3 • 8GB RAM • SSD Ideal for Students</p>
-
-          <div class="card-bottom">
-            <span class="price">₹499/day</span>
-            <button class="btn">Rent Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" />
-
-        ```
-        <div class="card-body">
-          <h3>Basic Laptop</h3>
-
-          <p class="specs">i3 • 8GB RAM • SSD Ideal for Students</p>
-
-          <div class="card-bottom">
-            <span class="price">₹499/day</span>
-            <button class="btn">Rent Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" />
-
-        ```
-        <div class="card-body">
-          <h3>Basic Laptop</h3>
-
-          <p class="specs">i3 • 8GB RAM • SSD Ideal for Students</p>
-
-          <div class="card-bottom">
-            <span class="price">₹499/day</span>
-            <button class="btn">Rent Now</button>
+            <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
       </div>
@@ -169,19 +124,13 @@ der class="navbar">
 
           <p class="footer-email">
             Email:
-            <a href="mailto:info@rrcomputers.net">info@rrcomputers.net</a>
+            <a href="mailto:info@rrcomputers.net" target="_blank">info@rrcomputers.net</a>
           </p>
 
           <div class="footer-social">
-            <a href="#" aria-label="Facebook"
-              ><img src="img/facebook.png" alt=""
-            /></a>
-            <a href="#" aria-label="Twitter"
-              ><img src="img/1707222563twitter-logo-png.png" alt=""
-            /></a>
-            <a href="#" aria-label="Instagram"
-              ><img src="img/instagram.png" alt=""
-            /></a>
+            <a href="#" aria-label="Facebook" target = "_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebook-logo"></a>
+          <a href="https://www.instagram.com/" aria-label="Instagram" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="instagram-logo"></a>
+          <a href="#" aria-label="Twitter" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt="twitter-logo"></a>
           </div>
         </div>
 
@@ -189,11 +138,11 @@ der class="navbar">
         <div class="footer-col">
           <h4>Qucik Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="Contact.html">Contacts</a></li>
-            <li><a href="rental.html">Rental</a></li>
+            <li><a href="<?php echo site_url('/'); ?>">Home</a></li>
+           <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
+           <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
+           <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
+           <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
           </ul>
         </div>
 
@@ -201,18 +150,12 @@ der class="navbar">
         <div class="footer-col">
           <h4>Services</h4>
           <ul>
-            <li><a href="services.html">Laptop Repair / Computer Repair</a></li>
-            <li>
-              <a href="services.html"
-                >Cleaning Laptops / Replacing Thermal Paste</a
-              >
-            </li>
-            <li><a href="services.html">Data Recovery</a></li>
-            <li><a href="services.html">OS Installation</a></li>
-            <li>
-              <a href="services.html">Assembling a Personal Computer at Home</a>
-            </li>
-          </ul>
+          <li><a href="<?php echo site_url('/services'); ?>">Laptop Repair / Computer Repair</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Cleaning Laptops / Replacing Thermal Paste</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Data Recovery</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">OS Installation</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Assembling a Personal Computer at Home</a></li>
+        </ul>
         </div>
       </div>
 

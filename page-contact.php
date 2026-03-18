@@ -3,10 +3,10 @@
     <div class="nav-container">
 
       <!-- Logo -->
-      <div class="logo">
-        <a href="index.html">
-          <img src="img/RRC Long logo.png" alt="RR Computers Logo">
-        </a>
+       <div class="logo">
+      <a href="<?php echo site_url('/'); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.png">
+      </a>
 
       </div>
 
@@ -17,11 +17,11 @@
 
       <!-- Menu -->
       <nav class="menu" id="navMenu">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="Contact.html">Contact Us</a>
-        <a href="rental.html">Rental</a>
+        <a href="<?php echo site_url('/'); ?>">Home</a>
+      <a href="<?php echo site_url('/about'); ?>">About</a>
+      <a href="<?php echo site_url('/services'); ?>">Services</a>
+      <a href="<?php echo site_url('/contact'); ?>">Contact</a>
+      <a href="<?php echo site_url('/rental'); ?>">Rental</a>
         <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
       </nav>
 
@@ -54,7 +54,7 @@
 
           <li>
             <span>✉️</span>
-            <a href="mailto:info@rrcomputers.net">
+            <a href="mailto:info@rrcomputers.net" target="_blank">
               info@rrcomputers.net
             </a>
           </li>
@@ -72,11 +72,14 @@
           </li>
         </ul>
 
-        <div class="contact-1-social">
-          <a href="#"><img src="img/facebook.png" alt=""></a>
-          <a href="#"><img src="img/instagram.png" alt=""></a>
-          <a href="#"><img src="img/1707222563twitter-logo-png.png" alt=""></a>
-        </div>
+        <div class="footer-social">
+        <a href="#" aria-label="Facebook" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="Facebook-logo"></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="Instagram-logo"></a>
+        <a href="#" aria-label="Twitter" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt="Twitter-logo"></a>
+      </div>
       </div>
 
       <!-- Right Form -->
@@ -117,25 +120,28 @@
 
         <p class="footer-email">
           Email:
-          <a href="mailto:info@rrcomputers.net">info@rrcomputers.net</a>
+          <a href="mailto:info@rrcomputers.net" target="_blank">info@rrcomputers.net</a>
         </p>
 
         <div class="footer-social">
-          <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt=""></a>
-          <a href="#" aria-label="Twitter"><img src="img/1707222563twitter-logo-png.png" alt=""></a>
-          <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt=""></a>
-        </div>
+        <a href="#" aria-label="Facebook" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="Facebook-logo"></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="Instagram-logo"></a>
+        <a href="#" aria-label="Twitter" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt="Twitter-logo"></a>
+      </div>
       </div>
 
       <!-- Column 2: Pages -->
       <div class="footer-col">
         <h4>Qucik Links</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="Contact.html">Contacts</a></li>
-          <li><a href="rental.html">Rental</a></li>
+          <li><a href="<?php echo site_url('/'); ?>">Home</a></li>
+        <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
+        <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
+        <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
         </ul>
       </div>
 
@@ -143,12 +149,12 @@
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="services.html">Laptop Repair / Computer Repair</a></li>
-          <li><a href="services.html">Cleaning Laptops / Replacing Thermal Paste</a></li>
-          <li><a href="services.html">Data Recovery</a></li>
-          <li><a href="services.html">OS Installation</a></li>
-          <li><a href="services.html">Assembling a Personal Computer at Home</a></li>
-        </ul>
+          <li><a href="<?php echo site_url('/services'); ?>">Laptop Repair / Computer Repair</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Cleaning Laptops / Replacing Thermal Paste</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Data Recovery</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">OS Installation</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Assembling a Personal Computer at Home</a></li>
+      </ul>
       </div>
 
     </div>

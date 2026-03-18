@@ -10,10 +10,9 @@ Template Name: About Page
 
             <!-- Logo -->
             <div class="logo">
-                <a href="index.html">
-                    <img src="img/RRC Long logo.png" alt="RR Computers Logo">
+                <a href="<?php echo site_url('/'); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.png">
                 </a>
-
             </div>
 
             <!-- Hamburger -->
@@ -23,11 +22,11 @@ Template Name: About Page
 
             <!-- Menu -->
             <nav class="menu" id="navMenu">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="services.html">Services</a>
-                <a href="Contact.html">Contact Us</a>
-                <a href="rental.html">Rental</a>
+                <a href="<?php echo site_url('/'); ?>">Home</a>
+                 <a href="<?php echo site_url('/about'); ?>">About</a>
+                 <a href="<?php echo site_url('/services'); ?>">Services</a>
+                 <a href="<?php echo site_url('/contact'); ?>">Contact</a>
+                 <a href="<?php echo site_url('/rental'); ?>">Rental</a>
                 <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
             </nav>
 
@@ -52,7 +51,7 @@ Template Name: About Page
                     complete laptop and desktop services under one roof.
                 </p>
                 <p>
-                    We offer a wide range of <a href="services.html">services</a> including laptop and desktop repair,
+                    We offer a wide range of <a href="<?php echo site_url('/services'); ?>">Services</a> including laptop and desktop repair,
                     computer sales and rentals,
                     hardware upgrades, networking solutions, CCTV installation, firewall security, data recovery, and
                     refurbished systems. Our goal is to ensure smooth, secure, and efficient performance of your systems
@@ -71,13 +70,13 @@ Template Name: About Page
                 </p>
                 <p>
                     If you need reliable IT support for your home or office, feel free to
-                    <a href="Contact.html">contact our team</a>
+                    <a href="<?php echo site_url('/contact'); ?>">Contact Our Team</a>
                     for quick assistance.
                 </p>
            
  <!-- Right Image -->
             <div class="about-1-image">
-                <img src="img/about-01-470x580.jpg" alt="About Bhawana Computers">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/about-01-470x580.jpg" alt="About RR COMPUTERS">
             </div>
         </div>
     </section>
@@ -94,37 +93,40 @@ Template Name: About Page
 
                 <p class="footer-email">
                     Email:
-                    <a href="mailto:info@rrcomputers.net">info@rrcomputers.net</a>
+                    <a href="mailto:info@rrcomputers.net" target="_blank">info@rrcomputers.net</a>
                 </p>
 
-                <div class="footer-social">
-                    <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt=""></a>
-                    <a href="#" aria-label="Twitter"><img src="img/1707222563twitter-logo-png.png" alt=""></a>
-                    <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt=""></a>
-                </div>
-            </div>
+         <div class="footer-social">
+        <a href="#" aria-label="Facebook" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="Facebook-logo"></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="Instagram-logo"></a>
+        <a href="#" aria-label="Twitter" target="_blank">
+           <img src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt="Twitter-logo"></a>
+      </div>
+      </div>
 
             <!-- Column 2: Pages -->
            <div class="footer-col">
                 <h4>Qucik Links</h4>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="Contact.html">Contacts</a></li>
-                    <li><a href="rental.html">Rental</a></li>
+                    <li><a href="<?php echo site_url('/'); ?>">Home</a></li>
+                    <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
+                    <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
+                    <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
+                    <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
                 </ul>
             </div>
             <!-- Column 3: Services -->
             <div class="footer-col">
                 <h4>Services</h4>
-                <ul>
-                    <li><a href="services.html">Laptop Repair / Computer Repair</a></li>
-                    <li><a href="services.html">Cleaning Laptops / Replacing Thermal Paste</a></li>
-                    <li><a href="services.html">Data Recovery</a></li>
-                    <li><a href="services.html">OS Installation</a></li>
-                    <li><a href="services.html">Assembling a Personal Computer at Home</a></li>
-                </ul>
+        <ul>
+          <li><a href="<?php echo site_url('/services'); ?>">Laptop Repair / Computer Repair</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Cleaning Laptops / Replacing Thermal Paste</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Data Recovery</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">OS Installation</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Assembling a Personal Computer at Home</a></li>
+        </ul>
             </div>
 
         </div>

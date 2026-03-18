@@ -4,8 +4,8 @@
 
       <!-- Logo -->
       <div class="logo">
-        <a href="index.html">
-          <img src="img/RRC Long logo.png" alt="RR Computers Logo">
+       <a href="<?php echo site_url('/'); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.png">
         </a>
 
       </div>
@@ -17,12 +17,12 @@
 
       <!-- Menu -->
       <nav class="menu" id="navMenu">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="Contact.html">Contact Us</a>
-        <a href="rental.html">Rental</a>
-        <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
+        <a href="<?php echo site_url('/'); ?>">Home</a>
+    <a href="<?php echo site_url('/about'); ?>">About</a>
+    <a href="<?php echo site_url('/services'); ?>">Services</a>
+    <a href="<?php echo site_url('/contact'); ?>">Contact</a>
+    <a href="<?php echo site_url('/rental'); ?>">Rental</a>
+    <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
       </nav>
 
       <!-- Desktop Button -->
@@ -44,10 +44,10 @@
         </p>
 
       </div>
-      <a href="Contact.html">
+     <a href="<?php echo site_url('/contact'); ?>">
         <div class="section-1-grid">
           <div class="offer-card">
-            <img src="img/service_1_400x250_HD.png" alt="Laptop & Desktop Repair">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_1_400x250_HD.png" alt="Laptop & Desktop Repair">
             <h2>Laptop & Desktop Repair</h2>
             <p>
               We offer professional laptop and desktop repair services, including hardware replacement, software
@@ -56,7 +56,7 @@
 
           </div>
           <div class="offer-card">
-            <img src="img/service_2_400x250_HD.png" alt="Laptop & Desktop Rental">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_2_400x250_HD.png" alt="Laptop & Desktop Rental">
             <h2>Laptop & Desktop Rental</h2>
             <p>
               Our laptop and desktop rental services are ideal for offices, startups, training programs, and events. We
@@ -66,7 +66,7 @@
 
           </div>
           <div class="offer-card">
-            <img src="img/service_3_400x250_HD.png" alt="Laptop & Desktop Sales">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_3_400x250_HD.png" alt="Laptop & Desktop Sales">
             <h2>Laptop & Desktop Sales</h2>
             <p>
               RR Computers offers new and refurbished laptops and desktops at competitive prices. All systems are tested
@@ -75,7 +75,7 @@
           </div>
 
           <div class="offer-card">
-            <img src="img/service_4_400x250_HD.png" alt="Spare Parts & Hardware Upgrade">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_4_400x250_HD.png" alt="Spare Parts & Hardware Upgrade">
             <h2>Spare Parts & Hardware Upgrade</h2>
             <p>
               We supply genuine computer spare parts and provide hardware upgrade services such as RAM, SSD, and storage
@@ -84,7 +84,7 @@
 
           </div>
           <div class="offer-card">
-            <img src="img/service_5_400x250_HD.png" alt="Data Recovery">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_5_400x250_HD.png" alt="Data Recovery">
             <h2>Networking & Network Implementation</h2>
             <p>
               We provide complete networking solutions including LAN setup, cabling, router configuration, and network
@@ -93,7 +93,7 @@
 
           </div>
           <div class="offer-card">
-            <img src="img/service_6_400x250_HD.png" alt="Firewall Installation & Security">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_6_400x250_HD.png" alt="Firewall Installation & Security">
             <h2>Firewall Installation & Security</h2>
             <p>
               Our firewall installation services help protect your systems and network from cyber threats, unauthorized
@@ -103,7 +103,7 @@
           </div>
 
           <div class="offer-card">
-            <img src="img/service_7_400x250_HD.png" alt="CCTV Installation">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_7_400x250_HD.png" alt="CCTV Installation">
             <h2>CCTV Installation</h2>
             <p>
               We offer professional CCTV installation services for homes, offices, and shops to ensure 24/7 surveillance
@@ -112,7 +112,7 @@
 
           </div>
           <div class="offer-card">
-            <img src="img/service_8_400x250_HD.png" alt="Data Recovery">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_8_400x250_HD.png" alt="Data Recovery">
             <h2>Data Recovery</h2>
             <p>
               Our data recovery services help retrieve lost, deleted, or corrupted data from laptops, desktops, hard
@@ -141,10 +141,10 @@
           <a href="mailto:info@rrcomputers.net">info@rrcomputers.net</a>
         </p>
 
-        <div class="footer-social">
-          <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt=""></a>
-          <a href="#" aria-label="Twitter"><img src="img/1707222563twitter-logo-png.png" alt=""></a>
-          <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt=""></a>
+       <div class="footer-social">
+          <a href="#"  aria-label="Facebook" target = "_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt=""></a>
+          <a href="https://www.instagram.com/" aria-label="Instagram" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt=""></a>
+          <a href="#" aria-label="Twitter" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt=""></a>
         </div>
       </div>
 
@@ -152,23 +152,23 @@
       <div class="footer-col">
         <h4>Qucik Links</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="Contact.html">Contacts</a></li>
-          <li><a href="rental.html">Rental</a></li>
-        </ul>
+          <li><a href="<?php echo site_url('/'); ?>">Home</a></li>
+           <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
+           <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
+           <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
+           <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
+          </ul>
       </div>
       <!-- Column 3: Services -->
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="services.html">Laptop Repair / Computer Repair</a></li>
-          <li><a href="services.html">Cleaning Laptops / Replacing Thermal Paste</a></li>
-          <li><a href="services.html">Data Recovery</a></li>
-          <li><a href="services.html">OS Installation</a></li>
-          <li><a href="services.html">Assembling a Personal Computer at Home</a></li>
-        </ul>
+          <li><a href="<?php echo site_url('/services'); ?>">Laptop Repair / Computer Repair</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Cleaning Laptops / Replacing Thermal Paste</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Data Recovery</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">OS Installation</a></li>
+          <li><a href="<?php echo site_url('/services'); ?>">Assembling a Personal Computer at Home</a></li>
+         </ul>
       </div>
 
     </div>
