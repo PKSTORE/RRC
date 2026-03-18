@@ -45,8 +45,7 @@
         R.R. Computers delivers reliable computer repair, laptop rental, networking, CCTV, and IT support services for
         homes and businesses with fast and trusted solutions.
       </p>
-
-      <a href="services.html" class="hero-btn">View All Services</a>
+      <a href="<?php echo site_url('/services'); ?>" class="hero-btn">View All Services</a>
     </div>
 
 
@@ -100,6 +99,10 @@
             <input type="tel" id="phone" placeholder="Your phone">
             <small class="error" id="phoneError"></small>
           </div>
+           <div class="input-box">
+           <input type="text" id="Query" placeholder="Write Your Query">
+            <small class="error" id="nameError"></small>
+           </div>
 
           <button type="submit">Submit Request</button>
 
@@ -122,9 +125,9 @@
     <div class="hero-3-slider-wrapper">
       <div class="hero-3-slider" id="hero3Slider">
         <!-- Card 1 -->
-        <a href="services.html">
+        <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/SERVICE 1.png" alt="Spare Parts & Peripherals">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service-1.png" alt="Spare Parts & Peripherals">
             <h3>Spare Parts & Peripherals</h3>
             <p>
               High-quality computer spare parts and peripherals including RAM, hard drives, SSDs, keyboards, monitors,
@@ -134,9 +137,10 @@
           </div>
         </a>
         <!-- Card 2 -->
-        <a href="services.html">
+        <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/service_2_400x250_HD.png" alt="Laptop & Desktop Rental">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_2_400x250_HD.png"
+            alt="Laptop & Desktop Rental">
             <h3>Laptop & Desktop Rental</h3>
             <p>
               Affordable laptop and desktop rental services for offices, events, training, and short- or long-term
@@ -147,9 +151,9 @@
         </a>
 
         <!-- Card 3 -->
-        <a href="services.html">
+        <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/SERVICE 3.png" alt="Laptop & Desktop Repair">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service-3.png" alt="Laptop & Desktop Repair">
             <h3>Laptop & Desktop Repair</h3>
             <p>
               Professional repair services for laptops and desktops, covering hardware issues, software problems, and
@@ -159,9 +163,9 @@
           </div>
         </a>
         <!-- Card 4 -->
-        <a href="services.html">
+       <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/SERVICE 4.1.png" alt="Laptop & Desktop Sales">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service-4-1.png" alt="Laptop & Desktop Sales">
             <h3>Laptop & Desktop Sales</h3>
             <p>
               New and refurbished laptops and desktops available at competitive prices, tested for performance and
@@ -171,9 +175,9 @@
           </div>
         </a>
         <!-- Card 5 -->
-        <a href="services.html">
+        <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="img/service_7_400x250_HD.png" alt="CCTV Installation">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/service_7_400x250_HD.png" alt="CCTV Installation">
             <h3>CCTV Installation</h3>
             <p>
               Professional CCTV installation services for homes, offices, and commercial spaces with reliable
@@ -232,7 +236,7 @@
       </div>
       <!-- CTA -->
       <div class="hero-4-cta">
-        <a href="Contact.html">Sign up for Repair →</a>
+        <a href="<?php echo site_url('/contact'); ?>">Sign up for Repair →</a>
       </div>
 
     </div>
@@ -265,8 +269,8 @@
         <p class="hero-5-sub">
           Enter your contact details to schedule a Meeting.
         </p>
-
-        <form class="hero-5-form" id="sing_up">
+       <!-- Complain box -->
+        <form class="hero-5-form" id="sing_up" >
           <div class="hero-5-input">
             <input type="text" placeholder="Your name" required id="yourname">
             <small class="error"></small>
@@ -292,7 +296,6 @@
 
         </form>
       </div>
-
     </div>
   </section>
   <!-- footer start-->
@@ -308,37 +311,40 @@
 
         <p class="footer-email">
           Email:
-          <a href="mailto:info@rrcomputers.net">info@rrcomputers.net</a>
+          <a href="mailto:info@rrcomputers.net" target="_blank">info@rrcomputers.net</a>
         </p>
 
         <div class="footer-social">
-          <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt=""></a>
-          <a href="#" aria-label="Twitter"><img src="img/1707222563twitter-logo-png.png" alt=""></a>
-          <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt=""></a>
-        </div>
+        <a href="#" aria-label="Facebook" target="_blank"><img
+            src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="Facebook-logo"></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank"><img
+            src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="Instagram-logo"></a>
+        <a href="#" aria-label="Twitter" target="_blank"><img
+            src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt="Twitter-logo"></a>
+      </div>
       </div>
 
       <!-- Column 2: Pages -->
       <div class="footer-col">
         <ul>
-           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="Contact.html">Contacts</a></li>
-          <li><a href="rental.html">Rental</a></li>
-        </ul>
+        <li><a href="<?php echo site_url('/'); ?>">Home</a></li>
+        <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
+        <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
+        <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
+      </ul>
       </div>
 
       <!-- Column 3: Services -->
       <div class="footer-col">
         <h4>Services</h4>
-        <ul>
-          <li><a href="services.html">Laptop Repair / Computer Repair</a></li>
-          <li><a href="services.html">Cleaning Laptops / Replacing Thermal Paste</a></li>
-          <li><a href="services.html">Data Recovery</a></li>
-          <li><a href="services.html">OS Installation</a></li>
-          <li><a href="services.html">Assembling a Personal Computer at Home</a></li>
-        </ul>
+         <ul>
+        <li><a href="<?php echo site_url('/services'); ?>">Laptop Repair / Computer Repair</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Cleaning Laptops / Replacing Thermal Paste</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Data Recovery</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">OS Installation</a></li>
+        <li><a href="<?php echo site_url('/services'); ?>">Assembling a Personal Computer at Home</a></li>
+      </ul>
       </div>
 
     </div>
@@ -395,7 +401,8 @@
     });
   </script>
   <!-- singup form -->
-  <script>
+     <!-- complain script  -->
+    <script>
     document.addEventListener("DOMContentLoaded", function () {
 
       const form = document.getElementById("sing_up");
