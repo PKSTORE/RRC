@@ -88,26 +88,23 @@
         <h3>Enquire Now</h3>
         <p>Enter your contact details to schedule a repair.</p>
 
-        <form class="hero-2-form" id="enquiryForm">
-
+        <form class="custom-form">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Your name" required>
+           <small class="error"></small>
+         </div>
           <div class="input-box">
-            <input type="text" id="name" placeholder="Your name">
-            <small class="error" id="nameError"></small>
-          </div>
-
-          <div class="input-box">
-            <input type="tel" id="phone" placeholder="Your phone">
-            <small class="error" id="phoneError"></small>
-          </div>
-           <div class="input-box">
-           <input type="text" id="Query" placeholder="Write Your Query">
-            <small class="error" id="nameError"></small>
+           <input type="tel" name="phone" placeholder="Your phone" required>
+           <small class="error"></small>
            </div>
-
-          <button type="submit">Submit Request</button>
-
-          <p class="success-msg" id="successMsg"></p>
-        </form>
+          <div class="input-box">
+           <input type="text" name="message" placeholder="Write your query" required>
+           <small class="error"></small>
+         </div>
+        <input type="hidden" name="type" value="enquiry">
+           <button type="submit">Submit Request</button>
+          <p class="success-msg"></p>
+     </form>
       </div>
 
     </div>
@@ -270,7 +267,7 @@
           Enter your contact details to schedule a Meeting.
         </p>
        <!-- Complain box -->
-        <form class="hero-5-form" id="sing_up" >
+        <form class="custom-form" id="sing_up" >
           <div class="hero-5-input">
             <input type="text" placeholder="Your name" required id="yourname">
             <small class="error"></small>
