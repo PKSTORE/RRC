@@ -85,24 +85,32 @@
       <!-- Right Form -->
       <div class="contact-1-form">
         <form class="custom-form">
-          <div class="form-group">
-            <input type="text" placeholder="Your name" required>
-          </div>
 
-          <div class="form-group">
-            <input type="tel" placeholder="Your phone" required>
-          </div>
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your name" required>
+    <small class="error"></small>
+  </div>
 
-          <div class="form-group">
-            <input type="email" placeholder="Your mail" required>
-          </div>
+  <div class="form-group">
+    <input type="tel" name="phone" placeholder="Your phone" required>
+    <small class="error"></small>
+  </div>
 
-          <div class="form-group">
-            <textarea placeholder="Your message"></textarea>
-          </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your mail" required>
+    <small class="error"></small>
+  </div>
 
-          <button type="submit">Submit Request</button>
-        </form>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <small class="error"></small>
+  </div>
+
+  <input type="hidden" name="type" value="contact">
+
+  <button type="submit">Submit Request</button>
+
+</form>
       </div>
 
     </div>

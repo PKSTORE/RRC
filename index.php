@@ -281,7 +281,7 @@
   <input type="hidden" name="type" value="complaint">
 
   <button type="submit">Complaint Ticket</button>
-
+ <p class="success-msg"></p>
 </form>
         <!-- Checkbox inline with text -->
         <label class="hero-5-checkbox">
