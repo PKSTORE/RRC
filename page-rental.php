@@ -29,7 +29,9 @@
     </header>
     <!-- rental 1-->
     <div class="cards">
-      <div class="card-body">
+      <div class="card">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/akshita-vault-1.png">
+         <div class="card-body">
           <h3>Dell Latitude 5400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
             <br>
@@ -44,6 +46,7 @@
             <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
+      </div>
 
       <div class="card">
         <img src="https://via.placeholder.com/400x250" />
