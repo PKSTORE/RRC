@@ -64,7 +64,6 @@
           </p>
 
           <div class="card-bottom">
-            <span class="price">₹899/day</span>
             <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
