@@ -29,29 +29,24 @@
     </header>
     <!-- rental 1-->
     <div class="cards">
-      <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/akshita-vault-1.png">
-
-        ```
-        <div class="card-body">
-          <h3>Gaming Laptop</h3>
-
-          <p class="specs">
-            i7 / Ryzen 7 • 32GB RAM • 512GB SSD RTX 3060 / 4070
+      <div class="card-body">
+          <h3>Dell Latitude 5400</h3>
+          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
+            <br>
+          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
+            <br>
+         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
+            <br>
+           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
           </p>
 
           <div class="card-bottom">
-            <span class="price">₹1499/day</span>
-          <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>  
+            <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
-        ```
-      </div>
 
       <div class="card">
         <img src="https://via.placeholder.com/400x250" />
-
-        ```
         <div class="card-body">
           <h3>Dell Latitude 5400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
@@ -67,13 +62,10 @@
             <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
         </div>
-        ```
       </div>
 
       <div class="card">
         <img src="https://via.placeholder.com/400x250" />
-
-        ```
         <div class="card-body">
           <h3>Basic Laptop</h3>
 
