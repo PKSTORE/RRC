@@ -1040,8 +1040,8 @@ margin-top: -100px;
 /* rental  */
 .cards {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-gap: 25px;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
 margin: 40px 0;
 }
 
@@ -1193,7 +1193,11 @@ a{
 @media (max-width: 992px) {
   .section-1-grid {
     grid-template-columns: repeat(2, 1fr);
+    
   }
+   .cards{
+    grid-template-columns: repeat(2, 1fr);
+   }
 }
 
 @media (max-width: 576px) {
@@ -1204,4 +1208,8 @@ a{
   .section-1-grid {
     grid-template-columns: 1fr;
   }
+  .cards{
+    grid-template-columns: 1fr;
+  }
 }
+
