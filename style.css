@@ -1077,7 +1077,10 @@ font-size: 14px;
 color: #555;
 line-height: 1.5;
 }
-
+ .specs span{
+  font-weight: 600;
+  color: black;
+ }
 .card-bottom {
 display: flex;
 justify-content: space-between;

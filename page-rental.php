@@ -54,13 +54,13 @@
         ```
         <div class="card-body">
           <h3>Dell Latitude 5400</h3>
-          <p class="specs">Processor: Typically features 7th or 8th Generation Intel Core processors
+          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
             <br>
-            Display: 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
+          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
             <br>
-            Memory & Storage: Commonly configured with 8GB Ram & 256GB SSD
+         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
             <br>
-            Features: Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
+           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
           </p>
 
           <div class="card-bottom">
