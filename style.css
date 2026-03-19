@@ -1042,7 +1042,7 @@ margin-top: -100px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 25px;
-margin: 40px 0;
+margin: 40px 10px;
 }
 
 .card {
