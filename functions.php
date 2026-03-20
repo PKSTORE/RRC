@@ -1,4 +1,5 @@
 <?php
+add_theme_support('title-tag');
 function rrcwebsite_enqueue_styles()
 {
     wp_enqueue_style(
