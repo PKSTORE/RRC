@@ -86,7 +86,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/M1-1.png" alt="Dell-5400">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/m1-logo.png" alt="Dell-5400">
         <div class="card-body">
         <h3>Apple MacBook Air M1</h3>
           <p class="specs"><span class="Processor">Processor:</span> Apple M1 chip with 8-core CPU and 7/8-core GPU
@@ -106,7 +106,7 @@
       <div class="card">
         <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
         <div class="card-body">
-          <h3>Dell Latitude 3400 (Touch)</h3>
+          <h3>Dell Latitude 5300 (Touch)</h3>
           <p class="specs"><span class="Processor">Processor:</span>8th Generation Intel Core i5/i7 processors (i5-8265U / i7-8665U)
             <br>
           <span class="Display">Display:</span> 13.3-inch screen, available in HD (1366 x 768) and Full HD (1920 x 1080) anti-glare display
