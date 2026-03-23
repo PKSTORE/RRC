@@ -136,7 +136,7 @@
         <!-- Card 2 -->
         <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/service_2_400x250_HD.png"
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service_2_400x250_HD.webp"
             alt="Laptop & Desktop Rental">
             <h3>Laptop & Desktop Rental</h3>
             <p>
@@ -174,7 +174,7 @@
         <!-- Card 5 -->
         <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/service_7_400x250_HD.png" alt="CCTV Installation">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/service_7_400x250_HD.webp" alt="CCTV Installation">
             <h3>CCTV Installation</h3>
             <p>
               Professional CCTV installation services for homes, offices, and commercial spaces with reliable
