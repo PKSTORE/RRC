@@ -30,7 +30,7 @@
     <!-- rental 1-->
     <div class="cards">
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/3400-dell-logo.png" alt="Dell-3400">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/3400-dell-logo.webp" alt="Dell-3400">
          <div class="card-body">
           <h3>Dell Latitude 3400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
@@ -49,7 +49,7 @@
       </div>
 
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/5400-dell-logo.png" alt="Dell-5400">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/5400-dell-logo.webp" alt="Dell-5400">
         <div class="card-body">
           <h3>Dell Latitude 5400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
@@ -68,7 +68,7 @@
       </div>
       
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/m2-logo.png" alt="Dell-5400">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/m2-logo.webp" alt="Dell-5400">
         <div class="card-body">
           <h3>Apple MacBook Air M2</h3>
           <p class="specs"><span class="Processor">Processor:</span> Apple M2 chip with 8-core CPU and up to 10-core GPU
@@ -86,7 +86,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/m1-logo.png" alt="Dell-5400">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/m1-logo.webp" alt="Dell-5400">
         <div class="card-body">
         <h3>Apple MacBook Air M1</h3>
           <p class="specs"><span class="Processor">Processor:</span> Apple M1 chip with 8-core CPU and 7/8-core GPU
@@ -104,7 +104,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/5300-dell-logo.webp" alt="Dell-5400">
         <div class="card-body">
           <h3>Dell Latitude 5300 (Touch)</h3>
           <p class="specs"><span class="Processor">Processor:</span>8th Generation Intel Core i5/i7 processors (i5-8265U / i7-8665U)
