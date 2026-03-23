@@ -30,7 +30,7 @@
     <!-- rental 1-->
     <div class="cards">
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/dell-3400.webp">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/dell-latitde-3400.webp">
          <div class="card-body">
           <h3>Dell Latitude 3400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
