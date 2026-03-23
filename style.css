@@ -1066,6 +1066,17 @@ transform: translateY(-8px);
 
 }
 
+.image-box {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-box img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
 .card-body {
 padding: 18px;
 }

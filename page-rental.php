@@ -86,7 +86,9 @@
         </div>
       </div>
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/M1-1.png" alt="Dell-5400">
+        <div class="image-box">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/M1-1.png" alt="Dell-5400">
+        </div>
         <div class="card-body">
         <h3>Apple MacBook Air M1</h3>
           <p class="specs"><span class="Processor">Processor:</span> Apple M1 chip with 8-core CPU and 7/8-core GPU
