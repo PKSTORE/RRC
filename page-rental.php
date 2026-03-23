@@ -66,55 +66,61 @@
           </div>
         </div>
       </div>
-
+      
       <div class="card">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/Macbook-M1.webp" alt="Macbook M1">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
         <div class="card-body">
-          <h3>Apple MacBook Air M1</h3>
-         <p class="specs">
-         <span class="Processor">Processor:</span> Apple M1 chip with 8-core CPU and 7/8-core GPU
-          <br>
-          <span class="Display">Display:</span> 13.3-inch Retina display, 2560 x 1600 resolution with True Tone
-          <br>
-          <span class="memory-storage">Memory & Storage:</span> 8GB RAM (configurable to 16GB) & 256GB SSD (expandable options available)
-          <br>
-          <span class="Features">Features:</span> Ultra-lightweight premium laptop, silent fanless design, long battery life, ideal for professionals and students
+          <h3>Dell Latitude 5400</h3>
+          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
+            <br>
+          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
+            <br>
+         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
+            <br>
+           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
           </p>
+
           <div class="card-bottom">
             <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
+        </div>
       </div>
-     <div class="card">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5300.webp" alt="Dell-5300">
+      <div class="card">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
         <div class="card-body">
-          <h3>Dell Latitude 5300 (Touch)</h3>
-          <p class="specs"><span class="Processor">Processor:</span> 8th Generation Intel Core i5/i7 processors (i5-8265U / i7-8665U)
-          <span class="Display">Display:</span> 13.3-inch screen, available in HD (1366 x 768) and Full HD (1920 x 1080) anti-glare display
+          <h3>Dell Latitude 5400</h3>
+          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
             <br>
-         <span class="Memory-Storage">Memory & Storage:</span> 8GB RAM (expandable up to 32GB) & 256GB SSD (expandable)
+          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
             <br>
-           <span class="Features">Features:</span>Lightweight business laptop, fast SSD performance, multiple ports (USB, HDMI, Type-C), ideal for office work and students
+         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
+            <br>
+           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
           </p>
+
           <div class="card-bottom">
             <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
+        </div>
       </div>
-     <div class="card">
-         <img src="<?php echo get_template_directory_uri(); ?>/img/MACBOOK-M2.webp" alt="MACBOOK M2">
+      <div class="card">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
         <div class="card-body">
-          <h3>Apple MacBook Air M2</h3>
-            <p class="specs">
-            <span class="Processor">Processor:</span> Apple M2 chip with 8-core CPU and up to 10-core GPU
+          <h3>Dell Latitude 5400</h3>
+          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
             <br>
-            <span class="Display">Display:</span> 13.6-inch Liquid Retina display, 2560 x 1664 resolution with True Tone
+          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
             <br>
-            <span class="memory-storage">Memory & Storage:</span> 8GB RAM (configurable to 24GB) & 256GB SSD (expandable options available)
+         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
             <br>
-            <span class="Features">Features:</span> Ultra-slim premium design, powerful performance, long battery life, MagSafe charging, ideal for professionals and students
-            </p>
+           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
+          </p>
+
           <div class="card-bottom">
             <a href="<?php echo site_url('/contact'); ?>"><button class="btn">Rent Now</button></a>
           </div>
+        </div>
+      </div>
       </div>
     </div>
 
