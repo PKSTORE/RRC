@@ -32,7 +32,7 @@
       <div class="card">
         <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-3400.webp" alt="Dell-3400">
          <div class="card-body">
-          <h3>Dell Latitude 3400 (Touch)</h3>
+          <h3>Dell Latitude 3400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
             <br>
           <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
@@ -70,14 +70,14 @@
       <div class="card">
         <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
         <div class="card-body">
-          <h3>Dell Latitude 5400</h3>
-          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
+          <h3>Apple MacBook Air M2</h3>
+          <p class="specs"><span class="Processor">Processor:</span> Apple M2 chip with 8-core CPU and up to 10-core GPU
             <br>
-          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
+          <span class="Display">Display:</span> 13.6-inch Liquid Retina display, 2560 x 1664 resolution with True Tone
             <br>
-         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
+         <span class="Memory&Storage">Memory & Storage:</span> 8GB RAM (configurable to 24GB) & 256GB SSD (expandable options available)
             <br>
-           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
+           <span class="Features">Features:</span>Ultra-slim premium design, powerful performance, long battery life, MagSafe charging, ideal for professionals and students
           </p>
 
           <div class="card-bottom">
@@ -88,14 +88,14 @@
       <div class="card">
         <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
         <div class="card-body">
-          <h3>Dell Latitude 5400</h3>
-          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
+        <h3>Apple MacBook Air M1</h3>
+          <p class="specs"><span class="Processor">Processor:</span> Apple M1 chip with 8-core CPU and 7/8-core GPU
             <br>
-          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
+          <span class="Display">Display:</span> 13.3-inch Retina display, 2560 x 1600 resolution with True Tone
             <br>
-         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
+         <span class="Memory&Storage">Memory & Storage:</span> 8GB RAM (configurable to 16GB) & 256GB SSD (expandable options available)
             <br>
-           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
+           <span class="Features">Features:</span> Ultra-lightweight premium laptop, silent fanless design, long battery life, ideal for professionals and students
           </p>
 
           <div class="card-bottom">
@@ -106,14 +106,14 @@
       <div class="card">
         <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
         <div class="card-body">
-          <h3>Dell Latitude 5400</h3>
-          <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
+          <h3>Dell Latitude 3400 (Touch)</h3>
+          <p class="specs"><span class="Processor">Processor:</span>8th Generation Intel Core i5/i7 processors (i5-8265U / i7-8665U)
             <br>
-          <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
+          <span class="Display">Display:</span> 13.3-inch screen, available in HD (1366 x 768) and Full HD (1920 x 1080) anti-glare display
             <br>
-         <span class="Memory&Storage">Memory & Storage:</span> Commonly configured with 8GB Ram & 256GB SSD
+         <span class="Memory&Storage">Memory & Storage:</span> 8GB RAM (expandable up to 32GB) & 256GB SSD (expandable)
             <br>
-           <span class="Features">Features:</span>Often runs Windows 10 or 11 Pro and includes HDMI and USB ports for connectivity.
+           <span class="Features">Features:</span>Lightweight business laptop, fast SSD performance, multiple ports (USB, HDMI, Type-C), ideal for office work and students
           </p>
 
           <div class="card-bottom">
