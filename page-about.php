@@ -97,13 +97,10 @@ Template Name: About Page
                 </p>
 
          <div class="footer-social">
-        <a href="#" aria-label="Facebook" target="_blank">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="Facebook-logo"></a>
-        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="Instagram-logo"></a>
-        <a href="#" aria-label="Twitter" target="_blank">
-           <img src="<?php echo get_template_directory_uri(); ?>/img/1707222563twitter-logo-png.png" alt="Twitter-logo"></a>
-      </div>
+        <a href="#"  aria-label="Facebook" target = "_blank"> <img src="<?php echo get_template_directory_uri(); ?>/img/facebook-logo.webp" alt="Facebook-logo"></a>
+          <a href="https://www.instagram.com/rrcomputers.official/" aria-label="Instagram" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/instagram-logo.webp" alt="Instagram Logo"></a>
+          <a href="#" aria-label="Twitter" target = "_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter-logo.webp" alt="Twitter-logo"></a>
+        </div>
       </div>
 
             <!-- Column 2: Pages -->
