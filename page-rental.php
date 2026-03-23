@@ -30,9 +30,9 @@
     <!-- rental 1-->
     <div class="cards">
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/resized_image.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/resized_image.png" alt="Dell-3400">
          <div class="card-body">
-          <h3>Dell Latitude 3400</h3>
+          <h3>Dell Latitude 3400 (Touch)</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
             <br>
           <span class="Display">Display:</span> 14-inch screen, with some models offering Full HD (1920 x 1080) resolution and touchscreen capabilities
@@ -49,7 +49,7 @@
       </div>
 
       <div class="card">
-        <img src="https://via.placeholder.com/400x250" />
+        <img src="<?php echo get_template_directory_uri(); ?>/img/5400-dell.webp" alt="Dell-5400">
         <div class="card-body">
           <h3>Dell Latitude 5400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
