@@ -76,7 +76,7 @@ Template Name: About Page
            
  <!-- Right Image -->
             <div class="about-1-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/about-01-470x580.jpg" alt="About RR COMPUTERS">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/about-01-470x580.webp" alt="About RR COMPUTERS">
             </div>
         </div>
     </section>
