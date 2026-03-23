@@ -49,7 +49,7 @@
       </div>
 
       <div class="card">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/DELL-5400.webp" alt="Dell-5400">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/5400-dell-logo.png" alt="Dell-5400">
         <div class="card-body">
           <h3>Dell Latitude 5400</h3>
           <p class="specs"><span class="Processor">Processor:</span> Typically features 7th or 8th Generation Intel Core processors
