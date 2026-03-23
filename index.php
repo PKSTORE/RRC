@@ -150,7 +150,7 @@
         <!-- Card 3 -->
         <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/service-3.png" alt="Laptop & Desktop Repair">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service-3.webp" alt="Laptop & Desktop Repair">
             <h3>Laptop & Desktop Repair</h3>
             <p>
               Professional repair services for laptops and desktops, covering hardware issues, software problems, and
@@ -162,7 +162,7 @@
         <!-- Card 4 -->
        <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/service-4-1.png" alt="Laptop & Desktop Sales">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service-4-1.webp" alt="Laptop & Desktop Sales">
             <h3>Laptop & Desktop Sales</h3>
             <p>
               New and refurbished laptops and desktops available at competitive prices, tested for performance and
