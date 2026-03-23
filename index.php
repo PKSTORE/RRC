@@ -124,7 +124,7 @@
         <!-- Card 1 -->
         <a href="<?php echo site_url('/services'); ?>">
           <div class="hero-3-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/service-1.png" alt="Spare Parts & Peripherals">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/service-1-web.webp" alt="Spare Parts & Peripherals">
             <h3>Spare Parts & Peripherals</h3>
             <p>
               High-quality computer spare parts and peripherals including RAM, hard drives, SSDs, keyboards, monitors,
