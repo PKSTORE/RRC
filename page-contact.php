@@ -54,8 +54,8 @@
 
           <li>
             <span>✉️</span>
-            <a href="mailto:info@rrcomputers.net" target="_blank">
-              info@rrcomputers.net
+            <a href="mailto:sales@rrcomputers.net" target="_blank">
+              sales@rrcomputers.net
             </a>
           </li>
 
