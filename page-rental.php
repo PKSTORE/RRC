@@ -136,7 +136,7 @@
 
           <p class="footer-email">
             Email:
-            <a href="mailto:info@rrcomputers.net" target="_blank">info@rrcomputers.net</a>
+            <a href="mailto:sales@rrcomputers.net" target="_blank">sales@rrcomputers.net</a>
           </p>
 
           <div class="footer-social">
