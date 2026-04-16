@@ -123,7 +123,7 @@ Version: 1.0
 .hero {
   position: relative;
   height: 90vh;
-  background: url('./img/background-web-1.webp') center/cover no-repeat;
+  background: url('./img/Hero-RR.webp') center/cover no-repeat;
   display: flex;
   align-items: center;
   padding-left: 80px;
