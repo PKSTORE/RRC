@@ -33,7 +33,6 @@
   </header>
 
   <section class="hero">
-     <img src="<?php echo get_template_directory_uri(); ?>/img/Hero-RR.webp" alt="Logo">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
