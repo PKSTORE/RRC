@@ -133,8 +133,8 @@ Version: 1.0
 /* Dark overlay like reference */
 .hero-overlay {
   position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  inset: 0; 
+  background: blue;
 }
 
 /* Text content */
